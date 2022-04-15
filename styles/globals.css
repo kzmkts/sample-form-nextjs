@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-5 px-6 cursor-pointer rounded-lg shadow hover:shadow-none font-bold transition-all active:scale-[.98];
+  }
+  .centered {
+    @apply grid place-items-center;
+  }
+}
